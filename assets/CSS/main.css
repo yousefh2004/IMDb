@@ -16,6 +16,9 @@ body{
         margin-left: 401.5;
     }
 }
+.fm{
+    height: 900px;
+}
 .boss{
     gap: 10px;
 }
@@ -1090,4 +1093,156 @@ a{
  .yyh{
     margin-top: 0px;
     border-radius: 20px;
+}
+.upper{
+    display: flex;
+    gap: 15px;
+    margin-left: 820px;
+    font-size: 15px;
+}
+.cast{
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+    li{
+        padding-right: 5px;
+    }
+}
+.ded{
+    margin-top: 20px;
+    color: white;
+    a{
+        color: white;
+    }
+}
+.crew{
+    list-style:none
+}
+.upper a:hover{
+    text-decoration: underline;
+}
+.midname{
+    h2{
+        padding-top: 0px;
+        padding-right: 300px;
+        padding-bottom: 0px;
+    }
+    display: flex;
+    gap: 30px;
+    h2{
+        font-size:50px;
+        padding-right: 420px;
+        padding-left: 90px;
+    }
+}
+.ratng{
+    display: flex;
+    i{
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+}
+
+.blu{
+    padding-bottom: 30px;
+}
+.bluu{
+    color: #5e6eb8;
+    
+}
+.det{
+    padding-left: 100px;
+    li{
+        margin-top: 0px;
+        padding-right: 10px;
+    }
+   
+}
+.film{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.jejo{
+    left: 99px;
+    top: 270px;
+}
+.middle{
+    display: flex;
+    gap: 10px;
+    iframe{
+        border-radius: 10px;
+    }
+    mask-image: linear-gradient(black 80%,transparent 100%);
+}
+.vid{
+    height: 220px;
+    align-content: center;
+    background-color: #111111;
+    border-radius: 10px;
+    width: 200px;
+    p{
+        padding-left: 60px;
+    }
+    i{
+        padding-left: 85px;
+    }
+
+    
+}
+.phot{
+    height: 220px;
+    align-content: center;
+    background-color: #111111;
+    border-radius: 10px;
+    width: 200px;
+    p{
+        padding-left: 60px;
+    }
+    i{
+        padding-left: 85px;
+    }
+    margin-top: 5px;
+}
+.vid:hover{
+    background-color: #171717;
+}
+.phot:hover{
+    background-color: #171717;
+}
+.detai{
+    padding-top: 40px;
+    color: rgb(138, 138, 138);
+  .chin  a{
+        color: rgb(225, 223, 223);
+        font-size: small;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    margin-left: 100px;
+}
+.abo{
+    padding-top: 30px;
+    margin-left: 100px;
+    width: 850px;
+    color: rgb(219, 218, 218);
+}
+.alin{
+    padding-top: 0px;
+    margin-left: 100px;
+}
+.infr{
+    display: flex;
+    margin-left:100px ;
+    gap: 20px;
+    a{
+        color: #5e6eb8;
+        padding-top: 1px;
+    }
+    h5{
+        font-family: Roboto;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    
 }

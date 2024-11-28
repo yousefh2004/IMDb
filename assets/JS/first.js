@@ -1,5 +1,9 @@
 const sorElement = document.querySelector(".sor");
 const cordElement = document.querySelector(".cord");
+if (!cordElement) {
+    console.error("Element not found!");
+    
+}
 
 const cardContent = [
     `
